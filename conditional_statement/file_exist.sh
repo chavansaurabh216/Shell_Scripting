@@ -2,11 +2,9 @@
 
 # set -ex
 
-touch file_exist.txt
+read -p "Enter the name of the file to be created: " file_name
 
-#file_name=/opt/infrastructure/test/Shell_Scripting/conditional_statement/file_exist.txt
-
-file_name=file_exist.txt
+touch $file_name
 
 if [ -e "$file_name" ]; then
     echo "$file_name exists"
