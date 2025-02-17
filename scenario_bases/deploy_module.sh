@@ -1,0 +1,3 @@
+# Modular Deployment Script Using Bash Functions
+
+# Objective: Create a script called deploy_module.sh that breaks down a deployment process into modular functions. This script should simulate common deployment steps such as updating code, installing dependencies, and restarting a service. Each step should be encapsulated in its own function, with a reusable logging function to output messages with timestamps.
